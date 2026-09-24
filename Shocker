@@ -19,7 +19,7 @@ local LOOK_THRESHOLD = 0.65
 getgenv().HungryBadgeGiven = getgenv().HungryBadgeGiven or false
 
 --// LOAD MODEL
-local fileName = rbxassetid://81809115282785
+game:GetObjects("rbxassetid://81809115282785")[1]
 
 	
 end
