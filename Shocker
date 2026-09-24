@@ -19,14 +19,12 @@ local LOOK_THRESHOLD = 0.65
 getgenv().HungryBadgeGiven = getgenv().HungryBadgeGiven or false
 
 --// LOAD MODEL
-local fileName = "shovchuxf.rbxm"
+local fileName = rbxassetid://81809115282785
 
-if not isfile(fileName) then
-	writefile(
-		fileName,
-		game:HttpGet("https://github.com/junin724/Doors-hardcore-rematser/raw/refs/heads/main/shovchuxf.rbxm")
-	)
+	
 end
+
+
 
 local entity = game:GetObjects(getcustomasset(fileName))[1]
 entity.Parent = workspace
